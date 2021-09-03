@@ -6,7 +6,7 @@ import Contacts from "./components/Contacts"
 function App() {
   return (
     <Switch>
-        <Route exact path="/contacts">
+        <Route exact path="/">
           <Contacts/>
         </Route>
 
