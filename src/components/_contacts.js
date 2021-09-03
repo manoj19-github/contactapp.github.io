@@ -8,10 +8,9 @@ export default StyleSheet.create({
   },
   mt: {
     marginTop: [{ unit: 'rem', value: 1 }],
-    position: 'fixed',
     top: [{ unit: 'px', value: 0 }],
     left: [{ unit: 'px', value: 0 }],
-    width: [{ unit: 'string', value: 'auto' }],
+    width: [],
     'screen&&<w768': {
       position: 'relative'
     }
